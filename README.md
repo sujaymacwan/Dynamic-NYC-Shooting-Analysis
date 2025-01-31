@@ -157,7 +157,7 @@ Policy Impact Analysis: Assess the effectiveness of new policies or intervention
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+### Acknowledgements
 Data Sources:
 NYPD Shooting Incident Data
 NYC Open Data Portal

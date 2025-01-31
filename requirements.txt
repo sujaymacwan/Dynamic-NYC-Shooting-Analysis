@@ -1,0 +1,46 @@
+# requirements.txt
+
+# Data Processing and Analysis
+pandas==1.5.0
+numpy==1.23.0
+pyspark==3.3.0
+geopandas==0.10.2
+folium==0.12.1
+matplotlib==3.5.0
+seaborn==0.12.0
+scipy==1.9.0
+statsmodels==0.13.2
+
+# Database Connectivity
+SQLAlchemy==1.4.39
+psycopg2-binary==2.9.3
+pymongo==3.12.3
+pyodbc==4.0.32
+snowflake-connector-python[pandas]==2.7.9
+snowflake-sqlalchemy==1.4.3
+
+# Azure and Cloud Services
+azure-storage-blob==12.11.0
+azure-core==1.24.0
+azure-identity==1.10.0
+
+# Jupyter and Notebook Environment
+jupyter==1.0.0
+notebook==6.4.12
+ipython==8.4.0
+
+# Additional Utilities
+openpyxl==3.0.9
+requests==2.28.1
+configparser==5.2.0
+
+# GIS Specific
+shapely==1.8.2
+fiona==1.8.21
+rtree==1.0.0
+
+# Version Control and Collaboration
+gitpython==3.1.27
+
+# Big Data Tools (ensure Hadoop and Spark are installed separately)
+findspark==2.0.1

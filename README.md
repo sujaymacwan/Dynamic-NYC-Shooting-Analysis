@@ -53,16 +53,23 @@ Collaboration and Communication: Microsoft Teams, Zoom
 The architecture consists of:
 ![image](https://github.com/user-attachments/assets/42b73fd2-a7cf-4a79-8600-ff7e1bf578e8)
 Data Sources: Various databases and data files (CSV, JSON, XML).
+
 ETL Processes: Data extraction, transformation, and loading using Python, PySpark, and SQL.
+
 Data Warehouse: Centralized Azure SQL Database for integrated data storage.
+
 Analytics Layer: Statistical models and spatial analysis.
+
 Visualization: Interactive dashboards in Power BI.
+
 Data Processing and ETL
 Data Extraction:Connected to multiple data sources (MongoDB, PostgreSQL, CSV files).
 Used Python scripts and SQL queries for data retrieval.
+
 Data Transformation: Cleaned data to handle missing values, duplicates, and inconsistencies.
 Standardized formats for dates, addresses, and categorical variables.
 Geocoded addresses to obtain latitude and longitude for spatial analysis.
+
 Data Loading: Loaded transformed data into Azure SQL Database.
 Ensured data integrity and optimized schemas for query performance.
 Automation: Scheduled ETL workflows using Azure Data Factory and cron jobs for real-time data updates.

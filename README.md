@@ -58,44 +58,35 @@ Data Warehouse: Centralized Azure SQL Database for integrated data storage.
 Analytics Layer: Statistical models and spatial analysis.
 Visualization: Interactive dashboards in Power BI.
 Data Processing and ETL
-Data Extraction:
-Connected to multiple data sources (MongoDB, PostgreSQL, CSV files).
+Data Extraction:Connected to multiple data sources (MongoDB, PostgreSQL, CSV files).
 Used Python scripts and SQL queries for data retrieval.
-Data Transformation:
-Cleaned data to handle missing values, duplicates, and inconsistencies.
+Data Transformation: Cleaned data to handle missing values, duplicates, and inconsistencies.
 Standardized formats for dates, addresses, and categorical variables.
 Geocoded addresses to obtain latitude and longitude for spatial analysis.
-Data Loading:
-Loaded transformed data into Azure SQL Database.
+Data Loading: Loaded transformed data into Azure SQL Database.
 Ensured data integrity and optimized schemas for query performance.
-Automation:
-Scheduled ETL workflows using Azure Data Factory and cron jobs for real-time data updates.
-Data Analysis
-Statistical Modeling:
-Performed descriptive statistics to understand data distributions.
+Automation: Scheduled ETL workflows using Azure Data Factory and cron jobs for real-time data updates.
+
+### Data Analysis
+Statistical Modeling: Performed descriptive statistics to understand data distributions.
 Conducted time-series analysis to identify trends over time.
 Implemented regression models to find correlations between variables.
-Spatial Analysis:
-Used GIS tools to map shooting incidents.
+
+Spatial Analysis: Used GIS tools to map shooting incidents.
 Identified hotspots using kernel density estimation.
 Analyzed demographic factors contributing to higher incident rates.
-Trend Analysis:
-Examined seasonal and temporal patterns.
+Trend Analysis: Examined seasonal and temporal patterns.
 Investigated the impact of policy changes on incident rates.
 Visualization
 Developed interactive dashboards in Power BI featuring:
 
-Overview Dashboard:
-Total incidents over time.
+Overview Dashboard:Total incidents over time.
 Incident counts by borough and neighborhood.
-Hotspot Maps:
-Heatmaps showing concentrations of shooting incidents.
+Hotspot Maps: Heatmaps showing concentrations of shooting incidents.
 Clustering of incidents using spatial algorithms.
-Demographic Analysis:
-Correlation between incidents and demographic variables.
+Demographic Analysis: Correlation between incidents and demographic variables.
 Visualization of socioeconomic factors.
-Time-Series Visualization:
-Monthly and yearly trends.
+Time-Series Visualization: Monthly and yearly trends.
 Effects of interventions or events on incident rates.
 
 ### Results
